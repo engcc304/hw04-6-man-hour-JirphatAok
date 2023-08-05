@@ -33,13 +33,13 @@ int main() {
     	float Workinghours ;
     	float Salary  ;
     	float money ; 
-     	printf( "Input the Employees ID(Max. 10 chars):\n" ) ;
+     	printf( "Input the Employees ID(Max. 10 chars):" ) ;
     	scanf( "%s" , &EmployeesYourID ) ;
 
-    	printf( "Input the working hrs:\n" ) ;
+    	printf( "Input the working hrs:" ) ;
     	scanf( "%f" , &Workinghours ) ;
 
-    	printf( "Salary amount/hr:\n" ) ;
+    	printf( "Salary amount/hr:" ) ;
     	scanf( "%f" , &Salary ) ;
 
     	money = Salary * Workinghours ;
