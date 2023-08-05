@@ -41,11 +41,10 @@ int main() {
 
     	printf( "Salary amount/hr:" ) ;
     	scanf( "%f" , &Salary ) ;
-
-    	money = Salary * Workinghours ;
+ 
 
     	printf("Expected Output: \n") ;
         printf("Employees ID = %s \n" ,EmployeesYourID ) ;
-        printf( "Salary = U$ %0.2f \n", money ) ;
+        printf( "Salary = U$ %0.2f \n", Salary * Workinghours ) ;
  return 0 ;
 }//end main function
