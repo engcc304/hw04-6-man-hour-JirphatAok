@@ -27,7 +27,6 @@
         Salary = U$ 374,000.00
 */
 #include <stdio.h>
-
 int main() {
     	char EmployeesYourID [10] ;
     	float Workinghours ;
