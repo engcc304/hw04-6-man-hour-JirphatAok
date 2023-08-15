@@ -40,7 +40,7 @@ int main() {
 
     	printf( "Salary amount/hr:\n" ) ;
     	scanf( "%f" , &Salary ) ;
- 
+ w
 
     	printf("Expected Output: \n") ;
         printf("Employees ID = %s \n" ,EmployeesYourID ) ;
